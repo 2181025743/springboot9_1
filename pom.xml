@@ -6,6 +6,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>day01</module>
+        <module>day2_spring_boot_swagger</module>
     </modules>
     <version>1.0-SNAPSHOT</version>
     <name>springboot9_1 Maven Webapp</name>
@@ -16,6 +17,11 @@
         <version>2.6.4</version> <!-- 教材选用的版本 -->
         <relativePath/> <!-- 表示不去找本地路径的父pom -->
     </parent>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>

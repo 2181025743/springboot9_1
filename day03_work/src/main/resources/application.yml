@@ -1,0 +1,23 @@
+spring:
+  profiles:
+    active: dev
+
+teacher:
+  name: 张老师
+  gender: 男
+  age: 35
+  students:
+    - name: 李明
+      gender: 男
+      age: ${random.int[15,19]}
+      score:
+        chinese: ${random.int[80,91]}
+        math: ${random.int[70,81]}
+        english: ${random.int[90,101]}
+    - name: 王芳
+      gender: 女
+      age: ${random.int[15,19]}
+      score:
+        chinese: ${random.int[80,91]}
+        math: ${random.int[70,81]}
+        english: ${random.int[90,101]}

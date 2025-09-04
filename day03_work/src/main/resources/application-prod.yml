@@ -1,0 +1,6 @@
+server:
+  port: 8082
+
+app:
+  environment: 生产环境
+  group-buying: 美团优选

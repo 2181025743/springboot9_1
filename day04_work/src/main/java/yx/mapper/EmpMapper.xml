@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="yx.mapper.EmpMapper">
+
+    <insert id="insert" useGeneratedKeys="true" keyColumn="id">
+        insert into emp(name, addr, dept, age)
+        values (#{name}, #{addr}, #{dept}, #{age});
+    </insert>
+    <update id="updateById">
+        UPDATE emp
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="addr != null and addr != ''">
+                addr = #{addr},
+            </if>
+            <if test="dept != null and dept != ''">
+                dept = #{dept},
+            </if>
+            <if test="age != null">
+                age = #{age},
+            </if>
+        </set>
+        WHERE id = #{id}
+    </update>
+    <delete id="deleteById">
+        delete
+        from emp
+        where id = #{id};
+    </delete>
+    <delete id="deleteByCondition">
+        DELETE FROM emp
+        <where>
+            <if test="id != null">
+                AND id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                AND name = #{name}
+            </if>
+            <if test="addr != null and addr != ''">
+                AND addr = #{addr}
+            </if>
+            <if test="dept != null and dept != ''">
+                AND dept = #{dept}
+            </if>
+            <if test="age != null">
+                AND age = #{age}
+            </if>
+        </where>
+    </delete>
+    <select id="selectAll" resultType="yx.entity.Emp">
+        select *
+        from emp;
+    </select>
+    <select id="selectById" resultType="yx.entity.Emp">
+        select *
+        from emp
+        where id = #{id};
+    </select>
+    <select id="selectByPaginationConditions" resultType="Emp">
+        SELECT * FROM emp
+        <where>
+            <if test="id != null">
+                AND id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                AND name LIKE CONCAT('%', #{name}, '%')
+            </if>
+            <if test="addr != null and addr != ''">
+                AND addr LIKE CONCAT('%', #{addr}, '%')
+            </if>
+            <if test="dept != null and dept != ''">
+                AND dept = #{dept}
+            </if>
+            <if test="age != null">
+                AND age = #{age}
+            </if>
+        </where>
+    </select>
+</mapper>

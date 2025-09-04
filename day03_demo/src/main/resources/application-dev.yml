@@ -1,0 +1,9 @@
+spring:
+  profiles: dev
+
+server:
+  port: 8081
+
+# 环境特有字段：社区团购程序（开发环境）
+school:
+  communityProgram: "橙心优选"

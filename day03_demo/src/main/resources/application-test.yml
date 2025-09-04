@@ -1,0 +1,9 @@
+spring:
+  profiles: test
+
+server:
+  port: 8080
+
+# 环境特有字段：社区团购程序（测试环境）
+school:
+  communityProgram: "多多买菜"

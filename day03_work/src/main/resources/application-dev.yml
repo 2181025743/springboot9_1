@@ -1,0 +1,6 @@
+server:
+  port: 8081
+
+app:
+  environment: 开发环境
+  group-buying: 橙心优选

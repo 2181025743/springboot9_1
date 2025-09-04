@@ -1,0 +1,26 @@
+# Default active profile is 'test' to use port 8080 unless overridden.
+spring:
+  profiles:
+    active: test
+
+# Common school data configured here (教师 + 学生集合)
+school:
+  teacher:
+    name: "李老师"
+    gender: "女"
+    age: 35
+  students:
+    - name: "王小明"
+      gender: "男"
+      age: 16
+      scores:
+        chinese: 83
+        math: 78
+        english: 92
+    - name: "张丽丽"
+      gender: "女"
+      age: 17
+      scores:
+        chinese: 88
+        math: 73
+        english: 96

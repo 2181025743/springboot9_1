@@ -1,0 +1,9 @@
+spring:
+  profiles: prod
+
+server:
+  port: 8082
+
+# 环境特有字段：社区团购程序（生产环境）
+school:
+  communityProgram: "美团优选"
