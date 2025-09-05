@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83b5a11c-7899-4059-a27b-85c883168fdd" name="更改" comment="springboot">
-      <change afterPath="$PROJECT_DIR$/day05_work/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05_work/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05_work/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05_work/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05_work/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05_work/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05_work/src/main/java/yx/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05_work/src/main/java/yx/entity/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05_work/src/main/java/yx/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05_work/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day05_work/src/test/java/yx/test/EmployeeMapperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="83b5a11c-7899-4059-a27b-85c883168fdd" name="更改" comment="springboot" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -430,7 +411,7 @@
       <workItem from="1756838419323" duration="23897000" />
       <workItem from="1756956340763" duration="7673000" />
       <workItem from="1756994235159" duration="733000" />
-      <workItem from="1756994991390" duration="4133000" />
+      <workItem from="1756994991390" duration="4794000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <option name="closed" value="true" />
@@ -464,7 +445,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756979740358</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="springboot">
+      <option name="closed" value="true" />
+      <created>1757069974270</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757069974270</updated>
+    </task>
+    <task id="LOCAL-00006" summary="springboot">
+      <option name="closed" value="true" />
+      <created>1757069981776</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757069981776</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
