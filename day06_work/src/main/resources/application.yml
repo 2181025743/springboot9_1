@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    username: root
+    password: aA1472580@
+    url: jdbc:mysql://localhost:3306/spring_demo?serverTimezone=Asia/Shanghai&characterEncoding=utf-8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      logic-delete-field: deleted
+      logic-delete-value: 1
+      logic-not-delete-value: 0
