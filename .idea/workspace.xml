@@ -4,7 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="83b5a11c-7899-4059-a27b-85c883168fdd" name="更改" comment="springboot" />
+    <list default="true" id="83b5a11c-7899-4059-a27b-85c883168fdd" name="更改" comment="springboot">
+      <change afterPath="$PROJECT_DIR$/day07/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/src/main/java/com/yx/Applications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/src/main/java/com/yx/generator/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/src/main/java/com/yx/generator/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/src/main/java/com/yx/generator/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/src/main/java/com/yx/generator/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/src/main/java/com/yx/generator/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/src/main/resources/applications.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/src/main/resources/mapper/EmployeeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07/src/test/java/TestGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/src/main/java/yx/Applications.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/src/main/java/yx/entity/StatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/src/main/java/yx/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/src/main/java/yx/entity/UserAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/src/main/java/yx/mapper/UserAccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/src/main/java/yx/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/src/main/java/yx/utils/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/src/main/java/yx/utils/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/src/test/java/yx/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day07_work/src/test/java/yx/UserAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aa1f619e-73e5-4efc-8b78-317a439d417c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aa1f619e-73e5-4efc-8b78-317a439d417c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/data_source_mapping.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/data_source_mapping.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +176,8 @@
     "应用程序.AppServer (1).executor": "Run",
     "应用程序.AppServer.executor": "Run",
     "应用程序.Application.executor": "Run",
-    "应用程序.Day01SpringbootMavenApplication.executor": "Run"
+    "应用程序.Day01SpringbootMavenApplication.executor": "Run",
+    "应用程序.Day07Application.executor": "Run"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -179,7 +219,20 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Application (2)">
+  <component name="RunManager" selected="应用程序.Day07Application">
+    <configuration name="Day07Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yx.day07.Day07Application" />
+      <module name="day07" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yx.day07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestMyBatisPlus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="day04_2" />
       <extension name="coverage">
@@ -191,22 +244,6 @@
       <option name="PACKAGE_NAME" value="yx" />
       <option name="MAIN_CLASS_NAME" value="yx.TestMyBatisPlus" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestMyBatis.testSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="day04_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="yx.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="yx" />
-      <option name="MAIN_CLASS_NAME" value="yx.TestMyBatis" />
-      <option name="METHOD_NAME" value="testSelect" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -340,6 +377,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day07Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="day07" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="yx.day07.Day07Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EmpApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="day04_work" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="yx.EmpApplication" />
@@ -382,11 +426,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="应用程序.Day07Application" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Spring Boot.EmpApplication (1)" />
         <item itemvalue="Spring Boot.EmpApplication" />
         <item itemvalue="JUnit.TestMyBatisPlus" />
-        <item itemvalue="JUnit.TestMyBatis.testSelect" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +455,9 @@
       <workItem from="1756838419323" duration="23897000" />
       <workItem from="1756956340763" duration="7673000" />
       <workItem from="1756994235159" duration="733000" />
-      <workItem from="1756994991390" duration="4794000" />
+      <workItem from="1756994991390" duration="6203000" />
+      <workItem from="1757076116300" duration="1745000" />
+      <workItem from="1757254243046" duration="7670000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <option name="closed" value="true" />
@@ -461,11 +507,30 @@
       <option name="project" value="LOCAL" />
       <updated>1757069981776</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="springboot">
+      <option name="closed" value="true" />
+      <created>1757074691493</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757074691493</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="111" />

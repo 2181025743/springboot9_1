@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/your_db_name?serverTimezone=UTC
+    username: root
+    password: aA1472580@
+    mvc:
+      pathmatch:
+        matching-strategy: ant_path_matcher

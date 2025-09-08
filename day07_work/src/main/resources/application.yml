@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    dynamic:
+      primary: db1
+      strict: false
+      datasource:
+        db1:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: ${DB1_URL:jdbc:mysql://localhost:3306/db1}
+          username: ${DB1_USER:root}
+          password: ${DB1_PWD:aA1472580@}
+        db2:
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          url: ${DB2_URL:jdbc:mysql://localhost:3306/db2}
+          username: ${DB2_USER:root}
+          password: ${DB2_PWD:aA1472580@}
+
+mybatis-plus:
+  type-aliases-package: yx.entity
+  global-config:
+    db-config:
+      id-type: assign_id
